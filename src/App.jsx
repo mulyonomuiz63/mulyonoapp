@@ -33,12 +33,11 @@ const Mobil = () => {
 function App() {
   return (
     <div className="">
-      <h1>Form Registrasi</h1>
       <Halaman />
-      
-      <Tugasprops kendaraan="Motor"/>
+
+      <Tugasprops kendaraan="Motor" />
       <Motor />
-      <Tugasprops kendaraan="Mobil"/>
+      <Tugasprops kendaraan="Mobil" />
       <Mobil />
     </div>
   );
