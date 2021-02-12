@@ -17,7 +17,7 @@ const Halaman = () => {
 
   return (
     <div className="belajar-form">
-      <h1>Form Registrasi</h1>
+      <h1 className="blajar-form_header">Form Registrasi</h1>
       <div className="biodata">
         <div className="biodata-header">Biodata</div>
 

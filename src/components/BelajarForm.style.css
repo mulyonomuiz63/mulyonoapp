@@ -10,6 +10,9 @@
   font-size: 24px;
   margin-bottom: 26px;
 }
+.blajar-form_header {
+  text-align: center;
+}
 .biodata,
 .resolusi {
   border: 1px solid black;
