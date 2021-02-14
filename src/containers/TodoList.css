@@ -1,0 +1,34 @@
+.todo {
+  background-color: teal; /* memberi warna pada elemen */
+  height: 100vh; /* untuk mengatur tinggi elemen */
+  display: flex; /* untuk mengantur elemen */
+  flex-direction: column; /* untuk memberikan tampilan colom pada elemen */
+  justify-content: center; /* untuk mengatur rata tengah pada konten */
+  align-items: center; /* untuk rata tengah text */
+}
+
+.todo_wrapper {
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+}
+
+.todo_header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.todo_create {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo_create_input {
+  display: flex;
+  flex: 1;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
